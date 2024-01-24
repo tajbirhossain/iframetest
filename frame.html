@@ -19,6 +19,7 @@
 
         myform.addEventListener("submit", (e) => {
             e.preventDefault()
+            localStorage.setItem("man", JSON.stringify("hello man"))
             window.location = "https://tajbirhossain.github.io/iframetest/frame-2.html"
         })
     </script>
